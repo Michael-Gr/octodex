@@ -6,3 +6,499 @@ body {
   margin: 0;
   font: 16px / 1 sans-serif;
 }
+
+.header {
+  background-color: #f3f3f3;
+  margin: 0.1px;
+  padding: 0.1px;
+  height: 75px;
+}
+
+.header li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.header ul {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header ul a:link {
+  text-decoration: none;
+}
+
+.header ul a {
+  color: black;
+}
+
+.header li:first-child {
+  flex: 1;
+}
+
+.content ul {
+  list-style-type: none;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+.block1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.block1 p {
+  border: solid #cacaca;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.block1 ul {
+  display: flex;
+  padding: 5px;
+  padding-top: 0;
+  padding-bottom: 12px;
+  margin-top: 0;
+  border-bottom: 1px solid #cacaca;
+}
+
+.block1 li {
+  padding-left: 10px;
+}
+
+.block1 li:first-child {
+  flex: 1;
+  padding-left: 0;
+  color: #cacaca;
+}
+
+.block1 a:link {
+  text-decoration: none;
+}
+
+.block1 a {
+  color: black;
+}
+
+.block2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.block2 p {
+  border: solid #cacaca;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.block2 ul {
+  display: flex;
+  padding: 5px;
+  padding-top: 0;
+  padding-bottom: 12px;
+  margin-top: 0;
+  border-bottom: 1px solid #cacaca;
+}
+
+.block2 li {
+  padding-left: 10px;
+}
+
+.block2 li:first-child {
+  flex: 1;
+  padding-left: 0;
+  color: #cacaca;
+}
+
+.block2 a:link {
+  text-decoration: none;
+}
+
+.block2 a {
+  color: black;
+}
+
+.block3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.block3 p {
+  border: solid #cacaca;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.block3 ul {
+  display: flex;
+  padding: 5px;
+  padding-top: 0;
+  padding-bottom: 12px;
+  margin-top: 0;
+  border-bottom: 1px solid #cacaca;
+}
+
+.block3 li {
+  padding-left: 10px;
+}
+
+.block3 li:first-child {
+  flex: 1;
+  padding-left: 0;
+  color: #cacaca;
+}
+
+.block3 a:link {
+  text-decoration: none;
+}
+
+.block3 a {
+  color: black;
+}
+
+.block4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.block4 p {
+  border: solid #cacaca;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.block4 ul {
+  display: flex;
+  padding: 5px;
+  padding-top: 0;
+  padding-bottom: 12px;
+  margin-top: 0;
+  border-bottom: 1px solid #cacaca;
+}
+
+.block4 li {
+  padding-left: 10px;
+}
+
+.block4 li:first-child {
+  flex: 1;
+  padding-left: 0;
+  color: #cacaca;
+}
+
+.block4 a:link {
+  text-decoration: none;
+}
+
+.block4 a {
+  color: black;
+}
+
+.block5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.block5 p {
+  border: solid #cacaca;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.block5 ul {
+  display: flex;
+  padding: 5px;
+  padding-top: 0;
+  padding-bottom: 12px;
+  margin-top: 0;
+  border-bottom: 1px solid #cacaca;
+}
+
+.block5 li {
+  padding-left: 10px;
+}
+
+.block5 li:first-child {
+  flex: 1;
+  padding-left: 0;
+  color: #cacaca;
+}
+
+.block5 a:link {
+  text-decoration: none;
+}
+
+.block5 a {
+  color: black;
+}
+
+.block6 {
+  display: flex;
+  flex-direction: column;
+}
+
+.block6 p {
+  border: solid #cacaca;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.block6 ul {
+  display: flex;
+  padding: 5px;
+  padding-top: 0;
+  padding-bottom: 12px;
+  margin-top: 0;
+  border-bottom: 1px solid #cacaca;
+}
+
+.block6 li {
+  padding-left: 10px;
+}
+
+.block6 li:first-child {
+  flex: 1;
+  padding-left: 0;
+  color: #cacaca;
+}
+
+.block6 a:link {
+  text-decoration: none;
+}
+
+.block6 a {
+  color: black;
+}
+
+.block7 {
+  display: flex;
+  flex-direction: column;
+}
+
+.block7 p {
+  border: solid #cacaca;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.block7 ul {
+  display: flex;
+  padding: 5px;
+  padding-top: 0;
+  padding-bottom: 12px;
+  margin-top: 0;
+  border-bottom: 1px solid #cacaca;
+}
+
+.block7 li {
+  padding-left: 10px;
+}
+
+.block7 li:first-child {
+  flex: 1;
+  padding-left: 0;
+  color: #cacaca;
+}
+
+.block7 a:link {
+  text-decoration: none;
+}
+
+.block7 a {
+  color: black;
+}
+
+.block8 {
+  display: flex;
+  flex-direction: column;
+}
+
+.block8 p {
+  border: solid #cacaca;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.block8 ul {
+  display: flex;
+  padding: 5px;
+  padding-top: 0;
+  padding-bottom: 12px;
+  margin-top: 0;
+  border-bottom: 1px solid #cacaca;
+}
+
+.block8 li {
+  padding-left: 10px;
+}
+
+.block8 li:first-child {
+  flex: 1;
+  padding-left: 0;
+  color: #cacaca;
+}
+
+.block8 a:link {
+  text-decoration: none;
+}
+
+.block8 a {
+  color: black;
+}
+
+.block9 {
+  display: flex;
+  flex-direction: column;
+}
+
+.block9 p {
+  border: solid #cacaca;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.block9 ul {
+  display: flex;
+  padding: 5px;
+  padding-top: 0;
+  padding-bottom: 12px;
+  margin-top: 0;
+  border-bottom: 1px solid #cacaca;
+}
+
+.block9 li {
+  padding-left: 10px;
+}
+
+.block9 li:first-child {
+  flex: 1;
+  padding-left: 0;
+  color: #cacaca;
+}
+
+.block9 a:link {
+  text-decoration: none;
+}
+
+.block9 a {
+  color: black;
+}
+
+.block10 {
+  display: flex;
+  flex-direction: column;
+}
+
+.block10 p {
+  border: solid #cacaca;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.block10 ul {
+  display: flex;
+  padding: 5px;
+  padding-top: 0;
+  padding-bottom: 12px;
+  margin-top: 0;
+  border-bottom: 1px solid #cacaca;
+}
+
+.block10 li {
+  padding-left: 10px;
+}
+
+.block10 li:first-child {
+  flex: 1;
+  padding-left: 0;
+  color: #cacaca;
+}
+
+.block10 a:link {
+  text-decoration: none;
+}
+
+.block10 a {
+  color: black;
+}
+
+.block11 {
+  display: flex;
+  flex-direction: column;
+}
+
+.block11 p {
+  border: solid #cacaca;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.block11 ul {
+  display: flex;
+  padding: 5px;
+  padding-top: 0;
+  padding-bottom: 12px;
+  margin-top: 0;
+  border-bottom: 1px solid #cacaca;
+}
+
+.block11 li {
+  padding-left: 10px;
+}
+
+.block11 li:first-child {
+  flex: 1;
+  padding-left: 0;
+  color: #cacaca;
+}
+
+.block11 a:link {
+  text-decoration: none;
+}
+
+.block11 a {
+  color: black;
+}
+
+.block12 {
+  display: flex;
+  flex-direction: column;
+}
+
+.block12 p {
+  border: solid #cacaca;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.block12 ul {
+  display: flex;
+  padding: 5px;
+  padding-top: 0;
+  padding-bottom: 12px;
+  margin-top: 0;
+  border-bottom: 1px solid #cacaca;
+}
+
+.block12 li {
+  padding-left: 10px;
+}
+
+.block12 li:first-child {
+  flex: 1;
+  padding-left: 0;
+  color: #cacaca;
+}
+
+.block12 a:link {
+  text-decoration: none;
+}
+
+.block12 a {
+  color: black;
+}
